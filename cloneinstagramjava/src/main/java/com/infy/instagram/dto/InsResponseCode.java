@@ -1,10 +1,7 @@
 package com.infy.instagram.dto;
 
-import lombok.Data;
-
 import java.io.Serializable;
 
-@Data
 public class InsResponseCode implements Serializable {
 
 	public static final InsResponseCode SUCCESS = new InsResponseCode("0", "general.result.info.success");

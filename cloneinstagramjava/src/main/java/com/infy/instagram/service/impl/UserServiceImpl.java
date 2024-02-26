@@ -1,4 +1,4 @@
-package com.infy.instagram.service;
+package com.infy.instagram.service.impl;
 
 import com.infy.instagram.config.LocalizationResolver;
 import com.infy.instagram.dto.UserCreateRequestDto;
@@ -6,6 +6,7 @@ import com.infy.instagram.entities.User;
 import com.infy.instagram.mapper.UserMapper;
 import com.infy.instagram.modal.InsResultMessage;
 import com.infy.instagram.repository.UserRepository;
+import com.infy.instagram.service.UserService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
