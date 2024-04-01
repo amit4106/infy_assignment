@@ -73,8 +73,8 @@ class UserSignupPage extends React.Component {
                             src="https://imageio.forbes.com/specials-images/imageserve/5fac4edfacc6b52b3dbbdfb5/instagram-reels/960x0.jpg?format=jpg&width=600"/>
                         <br/>
                         <div className="container">
-                            <div className="col">a</div>
-                            <div className="col">b</div>
+                            {/* <div className="col">a</div>
+                            <div className="col">b</div> */}
                         </div>
                     </div>
                     <div className="col-5">
